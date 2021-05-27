@@ -24,7 +24,6 @@ public class Board implements ActionListener {
 	boolean playerTurn;
 	JFrame frame = new JFrame();
 	JPanel buttonPanel = new JPanel();
-	JLabel textfield = new JLabel();
 	JButton[] buttons = new JButton[9];
 
 	Object[] options = {"Play Again" , "Close Game"};
