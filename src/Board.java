@@ -124,6 +124,9 @@ public class Board implements ActionListener {
 		if (buttons[3].getText() == "X" && buttons[4].getText() == "X" && buttons[5].getText() == "X") {
 			X();
 		} 
+		if (buttons[6].getText() == "X" && buttons[7].getText() == "X" && buttons[8].getText() == "X") {
+			X();
+		} 
 
 		//O wins
 		if (buttons[0].getText() == "O" && buttons[1].getText() == "O" && buttons[2].getText() == "O") {
@@ -132,6 +135,9 @@ public class Board implements ActionListener {
 		if (buttons[3].getText() == "O" && buttons[4].getText() == "O" && buttons[5].getText() == "O") {
 			O();
 		}
+		if (buttons[6].getText() == "O" && buttons[7].getText() == "O" && buttons[8].getText() == "O") {
+			X();
+		} 
 	
 	}
 
