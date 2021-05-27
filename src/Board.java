@@ -45,8 +45,8 @@ public class Board implements ActionListener {
 
 		for (int i = 0; i < 9; i++) {
 			buttons[i] = new JButton();
+			buttons[i].setFont(new Font("Times New Roman", Font.BOLD, 150));
 			buttonPanel.add(buttons[i]);
-			buttons[i].setFont(new Font("MV Boli", Font.BOLD, 120));
 			buttons[i].setFocusable(false);
 			buttons[i].addActionListener(this);
 		}
